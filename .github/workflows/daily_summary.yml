@@ -2,7 +2,8 @@ name: Daily GitHub Summary
 
 on:
   schedule:
-    - cron: '48 2 * * *'
+    - cron: '23 21 * * *'
+
 
 jobs:
   run-daily-summary:
