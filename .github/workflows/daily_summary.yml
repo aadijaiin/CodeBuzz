@@ -1,8 +1,10 @@
 name: Daily GitHub Summary
 
 on:
+  workflow_dispatch:  # <-- allows manual triggering
   schedule:
-    - cron: '23 21 * * *'
+    - cron: '53 2 * * *'
+
 
 
 jobs:
